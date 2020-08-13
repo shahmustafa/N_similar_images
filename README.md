@@ -13,5 +13,5 @@ I choosed a ResNet50 to train with the segregated data.
 `python train_animals.py`
 
 Used trained model to get N similar images as that of input image.
-Used already trained weights of ResNet50 model with give 5K dataset
+Use already [trained weights](https://drive.google.com/file/d/1YwsfMWosEcZa8VNuzrybYj0ZWFHzA1iT/view?usp=sharing) of ResNet50 model with give 5K dataset
 `python classification.py --input_img /data1/prjs/OCR/ocrmypdf/outdir_sub/5/5_52.jpg --N_req_imgs 4 --load_w /home/shahmustafa/Desktop/bottleneck_fc_model_save.h5`
